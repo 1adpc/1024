@@ -1,0 +1,7 @@
+echo "# 1024" >> README.md
+git init
+git add README.md
+git commit -m“第一次提交”
+git分支-M main
+git 远程添加来源 https://github.com/1adpc/1024.git
+git push -u origin main
